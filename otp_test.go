@@ -20,7 +20,7 @@ func Test_Gen(t *testing.T) {
 func Test_Auth(t *testing.T) {
 	fmt.Println("test auth")
 
-	secret := "GY4GMN3DHBSTIMTCGFSTKMRUHE4WCMLGGFRWEY3CG5TDSYZTMI4TSNRZMJRGMNRZ"
+	secret := "Ggggggggggggggggggggggggggggggggggggggggg"
 	// fmt.Println(ComputeCode(secret, 123123))
 	cfg := InitOTPConfig(secret)
 	fmt.Println(cfg.Authenticate("221597"))
